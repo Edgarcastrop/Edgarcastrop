@@ -1,5 +1,14 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div>
+    <Infopasteleria/>
   </div>
 </template>
+<script>
+import Infopasteleria from '../components/Infopasteleria.vue'
+export default {
+  name: "about",
+    components:{
+      Infopasteleria
+    }
+}
+</script>
